@@ -83,7 +83,7 @@ elif paz < 5:
     print("egzaminas neislaikytas")
 
 print()
-print("Uzduotys 7-8")
+print("Uzduotys 7-9")
 '''
 print("Iveskite skaiciu")
 skaicius = int(input())
@@ -104,3 +104,14 @@ if file_format == '.py':
     print("failas .py")
 else:
     print("failas ne .py")
+
+print("Uzduotys 1/2.10")
+skaicius = 7
+if skaicius % 2 == 0:
+    print("skaicius lyginis")
+elif skaicius % 5 == 0:
+    print("skaicius dalinasi is 5")
+elif skaicius == 3:
+    print("skaicius dalinasi is 5")
+else:
+    print("klaida")

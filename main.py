@@ -1,5 +1,6 @@
 import statistics
 import math
+import pathlib
 print(20240924)
 
 '''print("iveskite zodi")
@@ -81,3 +82,25 @@ elif paz >= 5:
 elif paz < 5:
     print("egzaminas neislaikytas")
 
+print()
+print("Uzduotys 7-8")
+'''
+print("Iveskite skaiciu")
+skaicius = int(input())
+if skaicius % 2 == 0:
+    print("lyginis")
+else:
+    print("nelyginis")
+'''
+'''print("Iveskite skaiciu")
+skaicius = int(input())
+if skaicius % 7 == 0:
+    print("dalinasi is 7")
+else:
+    print("nesidalina is 7")
+'''
+file_format = pathlib.Path('main.py').suffix
+if file_format == '.py':
+    print("failas .py")
+else:
+    print("failas ne .py")

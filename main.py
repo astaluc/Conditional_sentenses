@@ -115,3 +115,18 @@ elif skaicius == 3:
     print("skaicius dalinasi is 5")
 else:
     print("klaida")
+
+print("Uzduotys 2/2.11")
+if sk1 == sk2:
+    print(f'skaicius {sk1} = {sk2}')
+elif sk1 == sk3:
+    print(f'skaicius {sk1} = {sk3}')
+elif sk3 > sk1:
+    print(f'skaicius {sk3} > {sk1}')
+elif sk2 == 2 * sk3:
+    print(f'skaicius {sk2} = {sk3} * 2')
+elif sk1 % 3 == 0:
+    print(f'skaicius {sk3} % 3 = 0')
+else:
+    print("klaida")
+

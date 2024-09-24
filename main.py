@@ -130,3 +130,51 @@ elif sk1 % 3 == 0:
 else:
     print("klaida")
 
+#nr = int( input("Iveskite skaiciu") )
+#print( input() )
+#skaicius = int(input())
+print()
+print("Uzduotys 1/2.12-14")
+'''
+nr1 = int( input("Iveskite skaiciu:") )
+nr2 = int( input("Iveskite skaiciu:") )
+nr3 = int( input("Iveskite skaiciu:") )
+if nr1 > nr2 and nr1 > nr3:
+    print("nr1 didziausiais")
+elif nr2 > nr1 and nr2 > nr3:
+    print("nr2 didziausiais")
+else:
+    print(f'{nr3} didziausias')
+'''
+'''nr1 = int( input("Iveskite skaiciu:") )
+nr2 = int( input("Iveskite skaiciu:") )
+nr3 = int( input("Iveskite skaiciu:") )
+if nr1 < nr2 and nr1 < nr3:
+    print("nr1 maziausias")
+elif nr2 < nr1 and nr2 < nr3:
+    print("nr2 maziausias")
+else:
+    print(f'{nr3} maziausias')
+'''
+paz1 = 7
+paz2 = 8
+paz3 = 9
+print( statistics.mean([7, 8, 9]) )
+paz_vidurkis = sum([paz1, paz2, paz3]) / len([paz1, paz2, paz3])
+print(paz_vidurkis)
+if paz_vidurkis >= 8 and paz_vidurkis <= 10:
+    print("vidurkis [8-10]")
+elif paz_vidurkis >= 5 and paz_vidurkis <= 8:
+    print("vidurkis [5-8)")
+else:
+    print("vidurkis < 5")
+
+print("Uzduotys 2/2.15")
+if sk1 > sk2 or sk1 == 0:
+    print(f'{sk1} > {sk2} or {sk1} = 0')
+elif sk2 > sk1 or sk2 == 5:
+    print(f'{sk2} > {sk1} or {sk2} = 5')
+elif sk1 > sk2 and sk1 == 20:
+    print(f'{sk1} > {sk2} and {sk1} = 20')
+elif sk2 > sk1 and sk1 < 100:
+    print(f'{sk2} > {sk1} and {sk2} < 100')

@@ -37,12 +37,21 @@ if vidurkis > 0 or vidurkis == 5:
     print("vidurkis teigiamas")
 print( input() )
 '''
-print("Uzduotys 3/3.4")
+'''print("Uzduotys 3/3.4")
 sk = 6
 if sk % 5 == 0:
     print("\n", sk * 1, "\n", sk * 2, "\n", sk * 3, "\n", sk * 4, "\n", sk * 5)
 if sk % 2 == 0:
     print("\n", sk, "\n", sk ** 2, "\n", sk / 2, "\n", math.sqrt(sk))
+if sk % 7 != 0:
+    print("Iveskite skaiciu")
+kint2 = int( input() )
+suma = sk + kint2
+skirtumas = sk - kint2
+sandauga = sk * kint2
+dalmuo = sk / kint2
+print(f'suma {suma}, skirtumas {skirtumas}, sandauga {sandauga}, dalmuo {dalmuo}')
+'''
 
 print()
 print("Salyginiia sakiniai if_elif")
